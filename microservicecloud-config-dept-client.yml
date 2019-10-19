@@ -18,7 +18,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: microservicecloud-dept8001   #之定义服务名称信息
+    instance-id: config-dept8001   #之定义服务名称信息
     prefer-ip-address: true      #访问路径可以显示IP
     
 spring:
@@ -53,7 +53,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: microservicecloud-dept8001   #之定义服务名称信息
+    instance-id: config-dept8002   #之定义服务名称信息
     prefer-ip-address: true      #访问路径可以显示IP
     
 spring:
