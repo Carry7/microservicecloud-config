@@ -51,7 +51,7 @@ mybatis:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://eureka7002.com:7002/eureka/
   instance:
     instance-id: config-dept8002   #之定义服务名称信息
     prefer-ip-address: true      #访问路径可以显示IP
